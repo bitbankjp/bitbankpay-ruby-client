@@ -4,7 +4,7 @@ require 'json'
 require 'base64'
 
 class BitcheckPay
-  API_URI = 'https://bitcheckpay.jp/api/v1/'
+  API_URI = 'https://settlement.bitcheck.jp/api/v1/'
 
   def initialize(api_key)
     @api_key = api_key
